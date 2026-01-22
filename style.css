@@ -100,3 +100,22 @@ footer{
   nav ul.show{display:flex}
   .menu-btn{display:block}
 }
+
+.dates-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+  margin-top:20px;
+}
+
+.date-card{
+  background:rgba(255,255,255,0.6);
+  padding:20px;
+  border-radius:12px;
+  text-align:center;
+  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.date-card span{
+  font-size:28px;
+}
